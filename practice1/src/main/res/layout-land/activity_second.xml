@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:stretchColumns="0,1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Это горизонтальный режим (Landscape)!"
+        android:layout_span="2"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:paddingBottom="10dp"/>
+
+    <TableRow>
+        <Button android:text="Кнопка 1" />
+        <Button android:text="Кнопка 2" />
+    </TableRow>
+
+    <TableRow>
+        <Button android:text="Кнопка 3" />
+        <Button android:text="Кнопка 4" />
+    </TableRow>
+
+    <TableRow>
+        <Button android:text="Кнопка 5" />
+        <Button android:text="Кнопка 6" />
+    </TableRow>
+
+</TableLayout>

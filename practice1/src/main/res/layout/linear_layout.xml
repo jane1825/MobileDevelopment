@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Первый ряд кнопок -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Кнопка 1" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Кнопка 2" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Кнопка 3" />
+    </LinearLayout>
+
+    <!-- Второй ряд кнопок -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Кнопка 4" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Кнопка 5" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Кнопка 6" />
+    </LinearLayout>
+
+</LinearLayout>

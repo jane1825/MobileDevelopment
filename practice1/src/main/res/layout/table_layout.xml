@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:stretchColumns="1"
+    tools:ignore="HardcodedText">
+
+    <!-- Ряд 1: Логин -->
+    <TableRow android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Логин:"
+            android:textSize="18sp"
+            android:padding="10dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="Введите логин"
+            android:importantForAutofill="no"
+            android:inputType="text" />
+    </TableRow>
+
+    <!-- Ряд 2: Пароль -->
+    <TableRow android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Пароль:"
+            android:textSize="18sp"
+            android:padding="10dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:inputType="textPassword"
+            android:importantForAutofill="no"
+            android:hint="Введите пароль" />
+    </TableRow>
+
+    <!-- Ряд 3: Кнопка -->
+    <TableRow>
+        <View android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Войти" />
+    </TableRow>
+
+</TableLayout>
