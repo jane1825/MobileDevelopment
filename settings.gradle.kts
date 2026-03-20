@@ -24,3 +24,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Lesson1"
 include(":practice1")
+include(":control_lesson1")
+include(":buttonclicker")

@@ -24,8 +24,8 @@
         android:id="@+id/btnItIsNotMe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ЭТО НЕ Я"
-        android:onClick="onMyButtonClick" /> <!-- Второй способ через XML -->
+        android:onClick="onMyButtonClick"
+        android:text="ЭТО НЕ Я" /> <!-- Второй способ через XML -->
 
     <CheckBox
         android:id="@+id/checkBox"
