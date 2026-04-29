@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.stolyarovael.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_data"
+        android:name="ru.mirea.stolyarovael.mireaproject.ui.data.DataFragment"
+        android:label="@string/menu_data"
+        tools:layout="@layout/fragment_data" />
+
+    <fragment
+        android:id="@+id/nav_webview"
+        android:name="ru.mirea.stolyarovael.mireaproject.ui.webview.WebViewFragment"
+        android:label="@string/menu_webview"
+        tools:layout="@layout/fragment_web_view" />
+
+    <fragment
+        android:id="@+id/nav_worker"
+        android:name="ru.mirea.stolyarovael.mireaproject.ui.worker.WorkerFragment"
+        android:label="Background Task"
+        tools:layout="@layout/fragment_worker" />
+
+    <fragment
+        android:id="@+id/nav_recorder"
+        android:name="ru.mirea.stolyarovael.mireaproject.ui.recorder.RecorderFragment"
+        android:label="Recorder"
+        tools:layout="@layout/fragment_recorder" />
+
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="ru.mirea.stolyarovael.mireaproject.ui.camera.CameraFragment"
+        android:label="Camera Collage"
+        tools:layout="@layout/fragment_camera" />
+
+    <fragment
+        android:id="@+id/nav_sensor"
+        android:name="ru.mirea.stolyarovael.mireaproject.ui.sensor.SensorFragment"
+        android:label="Pressure Sensor"
+        tools:layout="@layout/fragment_sensor" />
+
+    <fragment
+        android:id="@+id/nav_files"
+        android:name="ru.mirea.stolyarovael.mireaproject.ui.files.FilesFragment"
+        android:label="Работа с файлами"
+        tools:layout="@layout/fragment_files" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="ru.mirea.stolyarovael.mireaproject.ui.profile.ProfileFragment"
+        android:label="Профиль"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_institution"
+        android:name="ru.mirea.stolyarovael.mireaproject.ui.institution.InstitutionFragment"
+        android:label="@string/menu_institution"
+        tools:layout="@layout/fragment_institution" />
+
+    <fragment
+        android:id="@+id/nav_internet_resource"
+        android:name="ru.mirea.stolyarovael.mireaproject.ui.internetresource.InternetResourceFragment"
+        android:label="@string/menu_internet_resource"
+        tools:layout="@layout/fragment_internet_resource" />
+</navigation>
